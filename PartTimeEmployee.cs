@@ -10,9 +10,7 @@ namespace Inheritance_Concept
     {
         public float HourPaid;
 
-        public PartTimeEmployee(string Name, string Email, int ID, float HourPaid) 
-
-            : base(Name, Email, ID)
+        public PartTimeEmployee(string Name, string Email, int ID, float HourPaid) : base(Name, Email, ID)
         {
             this.HourPaid = HourPaid;
         }
